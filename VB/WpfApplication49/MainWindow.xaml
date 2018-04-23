@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApplication49.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local ="clr-namespace:WpfApplication49"
+        Title="MainWindow" Height="350" Width="525" xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol">
+    <Window.Resources>
+        <Style TargetType="dxlc:Tile">
+            <!--<Setter Property="Background" Value="Red"></Setter>
+            <Setter Property="local:TileSelectionHelper.IsSelected" Value="False"></Setter>-->
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=(local:TileSelectionHelper.IsSelected)}" Value="True">
+                    <Setter Property="Background" Value="Green"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <dxlc:TileLayoutControl Background="#FF0E6D38" Name="tileLayoutControl1" Focusable="True" />
+    </Grid>
+</Window>
