@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/WpfApplication49/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/WpfApplication49/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/WpfApplication49/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication49/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/WpfApplication49/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication49/MainWindow.xaml.vb))
 * [MoveActions.cs](./CS/WpfApplication49/MoveActions.cs) (VB: [MoveActions.vb](./VB/WpfApplication49/MoveActions.vb))
 * [TileSelectionHelper.cs](./CS/WpfApplication49/TileSelectionHelper.cs) (VB: [TileSelectionHelper.vb](./VB/WpfApplication49/TileSelectionHelper.vb))
